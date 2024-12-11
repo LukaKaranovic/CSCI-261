@@ -1,0 +1,15 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: /home/faculty/jeetk/Downloads/Assignment3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_fef84/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fef84.dir/build.make CMakeFiles/cmTC_fef84.dir/build
+gmake[1]: Entering directory '/home/faculty/jeetk/Downloads/Assignment3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fef84.dir/CheckIncludeFile.c.o
+/usr/bin/avr-gcc    -o CMakeFiles/cmTC_fef84.dir/CheckIncludeFile.c.o -c /home/faculty/jeetk/Downloads/Assignment3/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/faculty/jeetk/Downloads/Assignment3/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: pthread.h: No such file or directory
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_fef84.dir/build.make:85: CMakeFiles/cmTC_fef84.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory '/home/faculty/jeetk/Downloads/Assignment3/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_fef84/fast] Error 2
+
+
+

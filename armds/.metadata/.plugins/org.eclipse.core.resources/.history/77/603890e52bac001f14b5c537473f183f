@@ -1,0 +1,27 @@
+/*
+ * lab3.2.s
+ *
+ *  Created on: Nov 19, 2024
+ *      Author: Luka Karanovic
+ *		Student Id: 665778833
+ */
+
+	.data
+
+
+
+
+ 	.text
+	.type main, %function
+	.global main
+
+main:
+	stp x29, x30, [sp, #-16]!
+
+
+
+	ldp x29, x30, [sp], #16
+	mov x0, 0
+	ret
+
+	.size main, (.-main)

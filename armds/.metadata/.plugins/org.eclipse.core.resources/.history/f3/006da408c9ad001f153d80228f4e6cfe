@@ -1,0 +1,9 @@
+/*
+ * lab5.s
+ *
+ *  Created on: Nov 28, 2024
+ *      Author: Luka Karanovic
+ *		Student Id: 665778833
+ *
+ *  ARM program that calculates the power of a base x raised to an exponent n (x^n), using recursion.
+ */

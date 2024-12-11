@@ -1,0 +1,32 @@
+/*
+ * lab3.2.s
+ *
+ *  Created on: Nov 19, 2024
+ *      Author: Luka Karanovic
+ *		Student Id: 665778833
+ *
+ *  Writes a multiplication table of base number a from 1 to n.
+ */
+
+	.data
+a:	.word 0
+n:	.word 0
+inputMsg:	.string "Enter a number.\n"
+scanFmt:	.string "%d"
+inputMsg:	.string "%d X %d = %d.\n"
+
+
+ 	.text
+	.type main, %function
+	.global main
+
+main:
+	stp x29, x30, [sp, #-16]!
+
+
+
+	ldp x29, x30, [sp], #16
+	mov x0, 0
+	ret
+
+	.size main, (.-main)

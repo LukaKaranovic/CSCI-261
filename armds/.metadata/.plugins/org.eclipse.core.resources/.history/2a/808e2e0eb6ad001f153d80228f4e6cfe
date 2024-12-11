@@ -1,0 +1,55 @@
+//
+//			.data
+////Write data section including strings as defined above
+//istr: 		.string ""
+//ostr:		.string ""
+//inputMsg:	.string		"Enter a string\n"
+//scanFmt:	.string 	"%s"
+//printS:		.string		"The Reversed String is %s"
+//
+//			.text
+//			.type	main, %function
+//			.global main
+//
+//main:
+////store x29, x30 on stack
+//	stp x29, x30, [sp, #-16]!
+//
+//	adr x0, inputMsg
+//	bl printf
+//
+//	adr x0, scanFmt
+//	adr x1, istr
+//	bl scanf
+//
+//	adr x0, istr
+//	adr x1, ostr
+//	mov w2, #0 //0 to cmp
+//	mov x3, #0 //count of length
+//
+//counter:
+//	ldrb w4, [x0, x3]
+//	cmp w4, w2
+//	beq stop
+//	add x3, x3, #1 //inc count
+//	b counter
+//
+//stop:
+//	sub x3, x3, #1
+//
+//reverse:
+//	ldrb w4, [x0, x3] //stores last character in x0
+//	strb w4, [x1], #1
+//	sub x3, x3, #1
+//	cmp x3, #-1
+//	bne reverse
+//
+//	mov w4, #0
+//	strb w4, [x1]
+//	adr x0, printS
+//	bl printf
+//	ldp x29, x30, [sp], #16
+//	mov x0, #0
+//	ret
+//		//load x29, x30
+//		//return 0

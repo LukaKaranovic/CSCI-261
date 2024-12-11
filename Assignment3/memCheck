@@ -1,0 +1,1 @@
+cd bin && valgrind --leak-check=yes ./main

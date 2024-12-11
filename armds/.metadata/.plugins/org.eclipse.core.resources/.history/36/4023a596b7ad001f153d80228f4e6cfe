@@ -1,0 +1,31 @@
+/*
+ * lab4.s
+ *
+ *  Created on: Nov 28, 2024
+ *      Author: Luka Karanovic
+ *		Student Id: 665778833
+ *
+ *  Determines the day of the week for a given date using an algorithm published by Michael Keith and Tom Craver in 1990.
+ */
+
+	.data
+
+
+	.text
+	.type main, %function
+	.global main
+
+main:
+	stp x29, x30, [sp, #-16]!
+
+
+
+
+
+
+end:
+	ldp x29, x30, [sp], #16
+	mov x0, #0
+	ret
+
+	.size main, (.-main)

@@ -1,0 +1,5 @@
+if(EXISTS "/home/faculty/jeetk/Downloads/Assignment3/build/assn_test[1]_tests.cmake")
+  include("/home/faculty/jeetk/Downloads/Assignment3/build/assn_test[1]_tests.cmake")
+else()
+  add_test(assn_test_NOT_BUILT assn_test_NOT_BUILT)
+endif()

@@ -1,0 +1,1 @@
+/usr/bin/avr-g++ -g CMakeFiles/assn_test.dir/assnTest.cpp.o -o assn_test  lib/libgtest_main.a lib/libgtest.a 

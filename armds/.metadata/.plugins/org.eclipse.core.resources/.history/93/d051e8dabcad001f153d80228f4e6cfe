@@ -1,0 +1,73 @@
+/*
+ * lab4.s
+ *
+ *  Created on: Nov 28, 2024
+ *      Author: Luka Karanovic
+ *		Student Id: 665778833
+ *
+ *  Determines the day of the week for a given date using an algorithm published by Michael Keith and Tom Craver in 1990.
+ */
+
+	.data
+day:		.word 0
+month:		.word 0
+year:		.word 0
+weekday:	.word 0
+t:			.word 0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4
+printDay:	.string "Enter a day.\n"
+printMonth:	.string "Enter a month.\n"
+printYear:	.string "Enter a year.\n"
+scanFmt:	.string "%d"
+
+
+	.text
+	.type main, %function
+	.global main
+
+main:
+	stp x29, x30, [sp, #-16]!
+
+	// I wanted to user input the date rather than predefine it.
+	adr x0, printDay
+	bl printf
+	adr x0, scanFmt
+	adr x1, day
+
+	adr x0, printMonth
+	bl printf
+	adr x0, scanFmt
+	adr x1, month
+
+	adr x0, printYear
+	bl printf
+	adr x0, scanFmt
+	adr x1, year
+
+	// Algorithm starts here
+	ldr x0, year
+	ldr x1, month
+	ldr x2, day
+	bl dayOfWeek
+
+
+end:
+	ldp x29, x30, [sp], #16
+	mov x0, #0
+	ret
+
+
+dayOfWeek:
+	stp x29, x30, [sp, #-16]!
+	ldr x3, =t
+	cmp x1, #3 		// m < 3
+	bge return
+	sub x0, x0, #1 	// year - 1
+
+return:
+
+
+	ldp x29, x30, [sp]. #16
+	ret
+
+
+

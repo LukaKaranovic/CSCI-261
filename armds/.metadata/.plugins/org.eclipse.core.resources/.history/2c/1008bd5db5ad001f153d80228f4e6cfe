@@ -1,0 +1,43 @@
+//
+//			.data
+////Write data section including strings as defined above
+//inputMsg:	.string		"Enter a Number:"
+//scanFmt:	.string 	"%d"
+//printS:		.string		"%d x %d = %d"
+//userNum: 	.word 0
+//
+//			.text
+//			.type	main, %function
+//			.global main
+//
+//main:
+////store x29, x30 on stack
+//	stp x29, x30, [sp, #-16]!
+//
+//	adr x0, inputMsg
+//	bl printf
+//
+//	adr x0, scanFmt
+//	adr x1, userNum
+//	bl scanf
+//
+//	ldr w19, userNum
+//	mov w20, #1
+//	adr x3, printS
+//
+//loop:
+//    mov w1, w19
+//    mov w2, w20
+//	mul w3, w1, w2
+//	add w20, w20, #1
+//    bl printf
+//
+//	cmp w1, #11
+//	bne loop
+//
+//
+//	ldp x29, x30, [sp], #16
+//	mov x0, #0
+//	ret
+//		//load x29, x30
+//		//return 0

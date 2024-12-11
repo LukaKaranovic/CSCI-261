@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4. Binary Addition and Subtraction.md",
+                "file": "7. Binary Shifts and Rotations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Binary Addition and Subtraction"
+              "title": "7. Binary Shifts and Rotations"
             }
           }
         ]
@@ -162,16 +162,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee4443cbaa7972bb",
+  "active": "ea8c817a0124ce66",
   "lastOpenFiles": [
-    "Pasted Image Bin/Pasted image 20241210171655.png",
-    "Pasted Image Bin/Pasted image 20241210170514.png",
-    "Pasted Image Bin/Pasted image 20241210170213.png",
-    "11. Instruction Set Architecture.md",
+    "Pasted Image Bin/Pasted image 20241211115311.png",
+    "Pasted Image Bin/Pasted image 20241211114746.png",
+    "Pasted Image Bin/Pasted image 20241211115003.png",
+    "7. Binary Shifts and Rotations.md",
+    "Pasted Image Bin/Pasted image 20241211115019.png",
+    "Pasted Image Bin/Pasted image 20241211114955.png",
+    "Pasted Image Bin/Pasted image 20241211114947.png",
+    "Pasted Image Bin/Pasted image 20241211114937.png",
+    "Pasted Image Bin/Pasted image 20241211114922.png",
+    "Pasted Image Bin/Pasted image 20241211114902.png",
+    "8. Endianness.md",
+    "6. Real Number Representation in Binary.md",
+    "5. Binary Multiplication and Division.md",
+    "Pasted Image Bin/Pasted image 20241211114131.png",
+    "Pasted Image Bin/Pasted image 20241211113645.png",
     "4. Binary Addition and Subtraction.md",
+    "11. Instruction Set Architecture.md",
     "3. ASCII Codes and Text Encoding.md",
     "Pasted Image Bin",
-    "Pasted Image Bin/Pasted image 20241210165942.png",
     "README.md",
     "2. Signed Number Conversion.md",
     "1. Number Conversion.md",
@@ -183,10 +194,6 @@
     "13. Addressing Modes.md",
     "12. Assembly Language.md",
     "10. Computer Architecture.md",
-    "9. Memory Segments in Executable Loading.md",
-    "8. Endianness.md",
-    "7. Binary Shifts and Rotations.md",
-    "6. Real Number Representation in Binary.md",
-    "5. Binary Multiplication and Division.md"
+    "9. Memory Segments in Executable Loading.md"
   ]
 }

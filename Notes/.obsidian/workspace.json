@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "110e59295ce6bb32",
+        "id": "b7a9c5cb11dc9935",
         "type": "tabs",
         "children": [
           {
-            "id": "ee4443cbaa7972bb",
+            "id": "2c0a87dc86115bd3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "18. ARM Assembly Programming.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "18. ARM Assembly Programming"
+              "title": "New tab"
             }
           }
         ]
@@ -162,13 +158,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee4443cbaa7972bb",
+  "active": "2c0a87dc86115bd3",
   "lastOpenFiles": [
+    "13. Addressing Modes.md",
+    "15. ARM Load and Store Instructions.md",
+    "18. ARM Assembly Programming.md",
     "17. Data Processing Instructions.md",
     "16. Branch Instructions.md",
-    "15. ARM Load and Store Instructions.md",
     "14. ARM v8 AArch 64 Register Bank.md",
-    "13. Addressing Modes.md",
     "12. Assembly Language.md",
     "11. Instruction Set Architecture.md",
     "10. Computer Architecture.md",
@@ -181,7 +178,6 @@
     "3. ASCII Codes and Text Encoding.md",
     "2. Signed Number Conversion.md",
     "1. Number Conversion.md",
-    "18. ARM Assembly Programming.md",
     "Pasted Image Bin/Pasted image 20241211201447.png",
     "Pasted Image Bin/Pasted image 20241211201518.png",
     "Pasted Image Bin/Pasted image 20241211201150.png",
